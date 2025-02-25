@@ -43,7 +43,7 @@ function Inicio (){
                                     </Col>   
                                 ))}    
                             </div>
-                                <a href="./CVt.pdf" download>
+                                <a href="./CV.pdf" download>
                                 <Button  className="mt-4 butoncv" >Mí CV</Button>  
                                 </a>
                         </Card.Body>
