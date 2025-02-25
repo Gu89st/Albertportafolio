@@ -10,7 +10,7 @@ function App(){
       <Router> 
         <Navbar/> 
         <Routes>
-        <Route path="/" element={<Navigate to="/Inicio" />} />
+        <Route />
           {Connection.map((route,index)=>( <Route key={index} 
           path={route.path} element={route.element} /> ))} 
         </Routes> 
