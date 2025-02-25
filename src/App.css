@@ -1,0 +1,183 @@
+/* barra de navegacion*/
+*{
+  background-color: #304A6E;
+  font-family: monospace;
+}
+.App{
+  height:0px;
+  padding: 20px;
+
+}
+.navbar{
+  transition: 0.3s;
+  height: 100px;
+  z-index: 1000;
+}
+
+.navbar .navbar-toggler {
+  border-color: #C2C6CE;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
+}
+
+.navbar-nav .nav-link {
+  color: #C2C6CE ; 
+}
+.custom-navbar{
+  font-size: 15px;
+}
+.secondpart{
+  margin-top: 80px;
+}
+.img-custom {
+  width: 100%; 
+  height: auto;
+  object-fit: cover; 
+}
+.card-custom{
+  margin-top: 30px;
+}
+
+.ThirdPart {
+  margin-top: 80px;
+  font-family: monospace; 
+}
+ 
+.Parrafoinicial{
+  display: flex;
+  max-width: 530px;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 25px;
+  color:#c0d0ef;
+}
+.text{
+  color: #C2C6CE;
+  font-size: 20px;
+}
+.Form{
+
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.Form .boton{
+  margin:0;
+  margin-top: 10px;
+  color: #0F1C30 !important;
+  background-color: #c0d0ef;
+ 
+}
+.nav-link:hover{
+color: #C2C6CE !important;
+}
+/*--*/
+.mensaje{
+  margin-top: 20%;
+  text-align: center;
+}
+.mesa{
+  font-size: 30px;
+  
+}
+/**/
+.Proy-part{
+  margin-top: 80px;
+}
+.card-custom, .card-custom-proy{
+  transition: transform 0.2s;
+}
+.card-custom:hover, .card-custom-proy:hover {
+  transform: scale(1.05);
+}
+.card-custom-proy{
+  border:2px solid #0F1C30 !important;
+}
+/*Incio*/
+.firstpart{
+  margin-top: 125px;
+}
+.firstpart .Custom-carI{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 17px solid #0F1C30;
+}
+.custom-title{
+  font-size: 2rem;
+}
+.custom-text{
+  font-size: 15px;
+}
+.parrafo2{
+  color: #ffffff;
+}
+.butoncv{
+  background-color: #c0d0ef !important;
+  color: #0F1C30 !important;
+}
+.butoncv:hover{
+  background-color: #668DC0 !important; 
+}
+/**/
+.imacar {
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.carrusel h1 {
+  position: relative;
+  margin: 30px 0; 
+  color: #C2C6CE;
+}
+
+.imagenescarrusel {
+  width: 50%;
+  top: -10px;
+  max-width: 600px; 
+  height: 280px; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/**/
+.sobre{
+margin-top: 100px;
+padding: 5px;
+}
+.cuerposobre h1,.cuerposobre h3,.cuerposobre h4{
+  color: #ffffff;
+  background-color: #668DC0;
+ padding: 5px;
+}
+.cuerposobre{
+  background-color: #668DC0;
+}
+.Custom-sobre{
+  top: 40px;
+  width: 100%; 
+  max-width: 1000px; 
+  height: auto; 
+}
+.intercon{
+  padding: 50px;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+/**/
+.iconos-inicio{
+  display: flex;
+padding: 5px;
+  align-items: center;
+  gap: 10px;
+}
