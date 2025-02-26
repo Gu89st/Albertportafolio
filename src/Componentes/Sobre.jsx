@@ -57,7 +57,7 @@ function Sobre(){
                 <Col md={8}>
                     <Card.Body className="d-flex flex-column align-items-center ">
                             <div className="text-end parrafo2">
-                                <Card.Title className="text-end text-justify display-5">Intercon</Card.Title>
+                                <Card.Title className="text-end text-justify display-5">INTERCON</Card.Title>
                                 <Card.Text className="custom-text">
                                 Participé en la 2024 IEEE XXVII Conferencia Internacional sobre Electrónica, 
                                 Ingeniería Eléctrica y Computación - INTERCON, asistiendo a diversas conferencias, 

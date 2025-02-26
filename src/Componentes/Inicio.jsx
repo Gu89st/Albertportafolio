@@ -28,7 +28,7 @@ function Inicio (){
                                     enfoque innovador y alineado con los objetivos del equipo. 
                                     Además, soy eficaz, responsable y tengo una fuerte adaptabilidad 
                                     ante nuevos desafíos. Mi participación activa en proyectos como 
-                                    la Intercom y envoluntariados ambientales demuestra mi dedicación 
+                                    la INTERCON y VOLUNTARIADOS AMBIENTALES demuestra mi dedicación 
                                     al trabajo en equipo y a la responsabilidad social, lo que me 
                                     permite contribuir de manera significativa tanto en el ámbito 
                                     académico como en la comunidad.

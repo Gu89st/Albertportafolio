@@ -13,7 +13,7 @@ const Certificaciones=() =>{
         {Datacerti.map((cert, idx)=>(
           <Col key={idx} className="certificado">
             <Card className="card-custom">
-              <Card.Img variant="top" src={cert.img} className="img-fluis img-custom"/>
+            <Card.Img variant="top" src={cert.img} className="img-fluid" style={{ height: '350px', objectFit: 'cover' }} />
               <Card.Body className="text-center text-white">
                 <Card.Title>{cert.titulo}</Card.Title>
                 <Card.Text>{cert.institucion}</Card.Text>
@@ -23,7 +23,6 @@ const Certificaciones=() =>{
         ))}
       </Row>
     </div>
-    
   );
 };
 
