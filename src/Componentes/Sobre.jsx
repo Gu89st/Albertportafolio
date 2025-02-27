@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import intercon from "../Imagenes/Intercon.png"
+import Sunass from "../Imagenes/CertiV.png"
 
 function Sobre(){
     return (
@@ -48,30 +49,51 @@ function Sobre(){
             </Row>
       </Container>
       <div className="intercon">
-           
+            <Card className="Custom-sobre">
+                <Row className="g-0">
+                    <Col md={4} >
+                        <Card.Img variant="top" src={intercon} style={{width:'100%', height: '100%' }}/>
+                    </Col>
+                    <Col md={8}>
+                        <Card.Body className="d-flex flex-column align-items-center ">
+                                <div className="text-end parrafo2">
+                                    <Card.Title className="text-end text-justify display-5">INTERCON</Card.Title>
+                                    <Card.Text className="custom-text">
+                                    Participé en la 2024 IEEE XXVII Conferencia Internacional sobre Electrónica, 
+                                    Ingeniería Eléctrica y Computación - INTERCON, asistiendo a diversas conferencias, 
+                                    presentando papers y participando en seminarios. Esta experiencia me permitió 
+                                    conectar con investigadores, profesionales y estudiantes apasionados por el 
+                                    desarrollo de tecnologías.
+                                    </Card.Text>
+                                </div>
+                            
+                        </Card.Body>
+                    </Col>
+                </Row>
+            </Card>
+        </div>
+        <div className="Sunass">
         <Card className="Custom-sobre">
             <Row className="g-0">
                 <Col md={4} >
-                    <Card.Img variant="top" src={intercon} style={{width:'100%', height: '100%' }}/>
+                    <Card.Img variant="top" src={Sunass} style={{width:'100%', height: '100%' }}/>
                 </Col>
                 <Col md={8}>
                     <Card.Body className="d-flex flex-column align-items-center ">
                             <div className="text-end parrafo2">
-                                <Card.Title className="text-end text-justify display-5">INTERCON</Card.Title>
+                                <Card.Title className="text-end text-justify display-5">SUNASS</Card.Title>
                                 <Card.Text className="custom-text">
-                                Participé en la 2024 IEEE XXVII Conferencia Internacional sobre Electrónica, 
-                                Ingeniería Eléctrica y Computación - INTERCON, asistiendo a diversas conferencias, 
-                                presentando papers y participando en seminarios. Esta experiencia me permitió 
-                                conectar con investigadores, profesionales y estudiantes apasionados por el 
-                                desarrollo de tecnologías.
+                                Recibí reconocimiento de SUNASS por la implementación de proyectos innovadores 
+                                para el uso responsable del agua potable y la valoración de los servicios de 
+                                saneamiento, en el marco del XI Concurso Escolar Nacional "Gota de Oro" y el 
+                                Programa Educativo "Colegio con Agua Segura".
                                 </Card.Text>
                             </div>
-                        
                     </Card.Body>
                 </Col>
             </Row>
         </Card>
-        </div> 
+        </div>  
     </div>
     );
 }
